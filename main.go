@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-var pervyi, vtoroi *int
+var pervyi,vtoroi *int
 var znaki = map[string]func() int{
 	"+": func() int { return *pervyi + *vtoroi },
 	"-": func() int { return *pervyi - *vtoroi },
